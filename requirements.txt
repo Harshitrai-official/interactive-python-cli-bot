@@ -1,0 +1,23 @@
+# requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+# Interactive Python CLI Bot
+# Author: Harshit Rai
+#
+# This project has ZERO external dependencies.
+# It runs entirely on the Python Standard Library (Python 3.8+).
+#
+# Modules used (all built-in — no pip install needed):
+#   re        - Regular expression pattern matching (intent engine)
+#   datetime  - System date and time retrieval
+#   sys       - System exit and stdin/stdout handling
+#   random    - Randomised response selection from pools
+#   unittest  - Built-in test framework (used in test_bot.py)
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# To run the bot:
+#   python bot.py
+#
+# To run the tests:
+#   python test_bot.py
+#   python -m unittest test_bot -v
+# ─────────────────────────────────────────────────────────────────────────────
